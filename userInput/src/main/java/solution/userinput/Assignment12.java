@@ -10,11 +10,15 @@ public class Assignment12 {
         System.out.print("Enter Scoend Number : ");
         int scoend = input.nextInt();
         System.out.print("Odd number betwwen first to scoend : ");
+        int sum = 0;
         for (int i = first ; i <= scoend ; i++){
             if (i % 2 !=0 ){
                 System.out .print(i+ " ");
+                sum += i;
             }
         }
+         
+        System.out.println ("Sum of odd number : "+sum);
     }
     
 }

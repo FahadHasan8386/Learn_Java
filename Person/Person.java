@@ -1,64 +1,61 @@
 // person class defination
-public class Person
+public class Person1
 {
-	int Id;
-	String Name;
-	double Salary;
+	int id;
+	String name;
+	double salary;
 
 	// constructor
-	Person(int id, String name, double salary)
+	Person1(int id, String name, double salary)
 	{
-		this.Id = id;
-		this.Name = name ;
-		this.Salary = salary;
+		this.id = id;
+		this.name = name ;
+		this.salary = salary;
 	}
 	
 	// set id
 	void setId (int id)
 	{
-		this.Id = id;
+		this.id = id;
+	}
+	// get id
+	int getId()
+	{
+		return id;
 	}
 	
 	// set name
 	void setName(String name)
 	{
-		this.Name = name;
+		this.name = name;
+	}
+	// get name
+	String getName()
+	{
+		return name;
 	}
 	
 	// set salary
 	void setSalary (double salary)
 	{
-		this.Salary = salary;
+		this.salary = salary;
 	}
-
-	// get id
-	int getId()
-	{
-		return Id;
-	}
-	
-	// get name
-	String getName()
-	{
-		return Name;
-	}
-	
 	// get salary
 	double getSalary()
 	{
-		return Salary;
+		return salary;
 	}
 	
 	// show info
 	void showInfo()
 	{
-		System.out.println("Your id is: " +Id);
-		System.out.println("Your Name is: " +Name);
-		System.out.println("Your Salary is: " +Salary);
+		System.out.println("Your id is: " +id);
+		System.out.println("Your Name is: " +name);
+		System.out.println("Your Salary is: " +salary);
 	}
 }
 //Inherite Sakib class
-class Sakib extends Person
+class Sakib extends Person1
 {
 	int MatchPlayed;
 	int TotalRun;
@@ -136,10 +133,11 @@ class Sakib extends Person
 	}
 }
 //main class
+public class Person{
 public static void main(String[]args)
 {
 		
-	Person p1 = new Person();
+	Person1 p1 = new Person1();
 	p1.setId(2350204);
 	p1.setName("Sakib Al Hasan");
 	p1.setSalary(50000);
@@ -150,4 +148,4 @@ public static void main(String[]args)
 	s1.setTotalWicket(20);
 	s1.showInfo();	
 }
-
+}

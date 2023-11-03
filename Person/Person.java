@@ -135,8 +135,7 @@ class Sakib extends Person1
 //main class
 public class Person{
 public static void main(String[]args)
-{
-		
+{	
 	Person1 p1 = new Person1();
 	p1.setId(2350204);
 	p1.setName("Sakib Al Hasan");

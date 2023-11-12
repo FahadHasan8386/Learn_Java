@@ -27,6 +27,7 @@ class person {
     public int getMillCount() {
         return millCount;
     }
+	
 }
 
 public class MealSystem {
@@ -46,7 +47,11 @@ public class MealSystem {
         double totalDepositMoney = p1.getDepositMoney() + p2.getDepositMoney() + p3.getDepositMoney();
         int totalMillCount = p1.getMillCount() + p2.getMillCount() + p3.getMillCount();
 
-        System.out.println("\nTotal Deposit Money for all persons: " + totalDepositMoney);
+        System.out.println("Total Deposit Money for all persons: " + totalDepositMoney);
         System.out.println("Total mill count for all persons: " + totalMillCount);
+		
+		double millRate = totalDepositMoney / totalMillCount;
+		System.out.println("Running Mill Rate is : "+millRate);
+		
     }
 }

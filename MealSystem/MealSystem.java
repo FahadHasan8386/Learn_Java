@@ -3,7 +3,7 @@ class person {
     String name;
     double depositMoney;
     int millCount;
-
+	
     public person(String name, double depositMoney, int millCount) {
         this.name = name;
         this.depositMoney = depositMoney;
@@ -32,16 +32,21 @@ class person {
 
 public class MealSystem {
     public static void main(String[] args) {
+		int totalBazarCost = 3000;
+		
         person p1 = new person("Fahad", 2000, 39);
         person p2 = new person("Atik", 500, 10);
         person p3 = new person("Niloy", 1000, 39);
 
         p1.show("Person 1");
         p1.display();
+		System.out.println();
         p2.show("Person 2");
         p2.display();
+		System.out.println();
         p3.show("Person 3");
         p3.display();
+		System.out.println();
 
         // Calculate and display the sum
         double totalDepositMoney = p1.getDepositMoney() + p2.getDepositMoney() + p3.getDepositMoney();
@@ -52,6 +57,10 @@ public class MealSystem {
 		
 		double millRate = totalDepositMoney / totalMillCount;
 		System.out.println("Running Mill Rate is : "+millRate);
+		
+		double avaiableMoney = totalDepositMoney - totalBazarCost;
+		System.out.println("Money Avaiable : "+avaiableMoney);
+		
 		
     }
 }

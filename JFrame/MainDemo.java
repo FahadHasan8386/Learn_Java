@@ -33,13 +33,26 @@ public class MainDemo extends JFrame{
 		Tf2.setBounds(120,70 ,100 ,20);
 		c.add(Tf2);
 		
-		B1 = new JButton ("Save");
-		B1.setBounds(50 ,100 , 100 ,20 );
+		L3 = new JLabel("Age");
+		L3.setBounds(40 , 80, 300 ,50);
+		c.add(L3);
+		
+		Tf3 = new JTextField();
+		Tf3.setBounds(120 , 100 ,100 ,20);
+		c.add(Tf3);
+		
+		B1 = new JButton (" Ok");
+		B1.setBounds(50 ,200 , 100 ,20 );
 		c.add(B1);
 		
 		B2 = new JButton ("Close");
-		B2.setBounds(150 ,100 , 100 ,20 );
+		B2.setBounds(150 ,200 , 100 ,20 );
 		c.add(B2);
+		
+		B3 = new JButton("Save");
+		B3.setBounds(250 ,200 ,100 ,20);
+		c.add(B3);
+		
 		
 		
 	}

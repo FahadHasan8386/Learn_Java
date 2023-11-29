@@ -41,6 +41,14 @@ public class MainDemo extends JFrame{
 		Tf3.setBounds(120 , 100 ,100 ,20);
 		c.add(Tf3);
 		
+		L4 = new JLabel("Qualification");
+		L4.setBounds(40 ,110 ,400 ,50);
+		c.add(L4);
+		
+		Tf4 = new JTextField();
+		Tf4.setBounds(120 , 130 ,100 ,20);
+		c.add(Tf4);
+		
 		B1 = new JButton (" Ok");
 		B1.setBounds(50 ,200 , 100 ,20 );
 		c.add(B1);

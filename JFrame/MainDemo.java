@@ -15,7 +15,7 @@ public class MainDemo extends JFrame{
 	public void frameInIt()
 	{
 		c = this.getContentPane();
-		c.setBackground(new Color(255, 87, 51));
+		c.setBackground(new Color(184, 255, 51));
 		c.setLayout(null);
 		
 		L1 = new JLabel ("First Name ");

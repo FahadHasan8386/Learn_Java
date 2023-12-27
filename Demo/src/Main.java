@@ -11,5 +11,14 @@ public class Main {
             System.out.println(name[i]);
         }
 
+        //Each Loop
+        String [] name1 = {"Atik" , "Sadman" , "Tanvir"};
+
+        for (String x : name1){
+            System.out.println(x);
+        }
+
+
+
     }
 }

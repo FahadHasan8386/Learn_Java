@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e6d8c43-e934-46d6-aedc-b8e2c49572b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/LearnJava.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hello/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hello/src/main/java/solution/hello/Hello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hello/src/main/java/solution/hello/MyName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +35,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Array.executor": "Run",
+    "Application.Array1.executor": "Run",
     "Application.Cd158A.executor": "Run",
     "Application.HomePage.executor": "Run",
     "Application.Reverse.executor": "Run",
@@ -56,10 +51,10 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "trusted.hosts"
+    "settings.editor.selected.configurable": "project.propDebugger"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.VIew (1)">
+  <component name="RunManager">
     <configuration name="VIew (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />

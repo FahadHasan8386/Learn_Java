@@ -1,13 +1,17 @@
 
 public class Account{
-	private int accountNumber;
-	private String accountHolderName;
-	private double balance;
+	
+	public static void main(String[]args){
+		
+	int accountNumber;
+	String accountHolderName;
+	double balance;
+
 	void setAccountNumber(int an){
 		accountNumber = an;
 	}
 	void setAccountHolderName(String ahn){
-		AccountHolderName = ahn;
+		accountHolderName = ahn;
 	}
 	void setBalance(double b){
 		balance = b;
@@ -23,9 +27,11 @@ public class Account{
     public double getBalance() {
         return balance;
     }
-	
-	void showDetails( ){
+
+	public void Showdown(){
 		System.out.println("Account Number is : "+accountNumber);
-		System.out.println("Account Holder Name is : "+AccountHolderName);
+		System.out.println("Account Holder Name is : "+accountHolderName);
 		System.out.println("Account balance is : "+balance);
 	}
+}
+}
